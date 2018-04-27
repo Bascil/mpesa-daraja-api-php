@@ -1,0 +1,40 @@
+{
+    "name": "bascil/mpesa-api-php",
+    "description": "Simple PHP M-Pesa API",
+    "type": "library",
+    "keywords": ["mpesa", "safaricom", "transactions", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SmoDav",
+            "email": "smodavprivate@gmail.com"
+        },
+        {
+            "name": "Kabangi",
+            "email": "kabangijulius@gmail.com"
+        },
+        {
+            "name": "Bascil",
+            "email": "basilndonga@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bascil\\Mpesa\\": "src/Mpesa/"
+        }
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "Bascil\\Mpesa\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "~5.7|~6.2",
+        "jesseschalken/autoload-generator": "^0.2.3"
+    },
+    "minimum-stability": "stable"
+}
