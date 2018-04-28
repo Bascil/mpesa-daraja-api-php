@@ -145,9 +145,9 @@ https://github.com/Kabangi/mpesa
 ## Motivators
 Sincere gratitudes goes to the following guys for their code contribution:-
         
-1. SmoDav<smodavprivate@gmail.com>
+1. SmoDav <smodavprivate@gmail.com>
     
-2. Kabangijulius<kabangijulius@gmail.com>
+2. Kabangi Julius <kabangijulius@gmail.com>
     
 ## Support
 
