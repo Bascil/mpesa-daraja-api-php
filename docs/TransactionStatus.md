@@ -1,40 +1,41 @@
-### Transaction Status API 
-checks the status of a B2B, B2C and C2B APIs transactions.
+# Transaction Status API 
+Checks the status of a B2B, B2C and C2B APIs transactions.
 
-### Transaction Status Resource URL
+## Transaction Status Resource URL
 POST https://sandbox.safaricom.co.ke/mpesa/transactionstatus/v1/query
 
-### Transaction Status Request Parameters
+## Transaction Status Request Parameters
 
-	##CommandID 	
+###CommandID 	
 Unique command for each transaction type, possible values are: TransactionStatusQuery.
 
-	##ShortCode 	
+###ShortCode 	
 Organization /MSISDN sending the transaction.
 
-	##IdentifierType 	
+###IdentifierType 	
 Type of organization receiving the transaction
 
-	##Remarks 	
+###Remarks 	
 Comments that are sent along with the transaction.
 
-	##Initiator 	
+###Initiator 	
 The name of Initiator to initiating the request.
 
-	##SecurityCredential 	
+###SecurityCredential 	
 Base64 encoded string of the Security Credential, which is encrypted using M-Pesa public key and validates the transaction on M-Pesa Core system.
 
-	##QueueTimeOutURL 	
+###QueueTimeOutURL 	
 The path that stores information of time out transaction.
 
-	##ResultURL 	
+###ResultURL 	
 The path that stores information of transaction.
 
-	##TransactionID 	
+###TransactionID 	
 Organization Receiving the funds.
 
-	##Occasion 	
+###Occasion 	
 Optional.
+
 
 ## Sample PHP Transaction Status Request
 

@@ -1,30 +1,34 @@
-# M-PESA API Package
+# Simple PHP Implementation for M-Pesa API
 
 This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API.  
-
-If you are looking for a laravel implementation do check the following repo [Laravel Implementation](https://github.com/Bascil/mpesalaravel)
 
 ## Installation
 
 This project supports both composer dependency management tool and can also be used without composer
 
 ### Using Composer
+
 1. Run the following command
+
 ```
-composer require bascil/mpesa
+    composer require bascil/mpesa
+
 ```
+
 ### Without composer
 
 1. Download the source code as zipped 
 
 2. Follow the following directions
-``` 
-<?php
-require "{PATHTOTHISLIBFOLDER}/src/autoload.php";
 
-use Bascil\Mpesa\Init as Mpesa;
+``` 
+    <?php
+
+    require "{PATHTOTHISLIBFOLDER}/src/autoload.php";
+
+    use Bascil\Mpesa\Init as Mpesa
+
 ```
-3. Check the following example for usage https://github.com/Bascil/mpesa/blob/master/example/mpesa.php
 
 ## Configuration
 
@@ -40,52 +44,46 @@ To add the necessary configurations:-
 
 ## Usage
 ```
-<?php
-require "../src/autoload.php";
+    <?php
 
-use Bascil\Mpesa\Init as Mpesa;
+    require "../src/autoload.php";
 
-// You can also pass your own config here.
-// Check the folder ./config/mpesa.php for reference
+    use Bascil\Mpesa\Init as Mpesa;
 
-$mpesa = new Mpesa();
-try {
+    // You can also pass your own config here.
+    // Check the folder ./config/mpesa.php for reference
 
-    $response = $mpesa->STKPush([
-        'amount' => 10,
-        'transactionDesc' => '',
-        'phoneNumber' => '',
-    ]);
-    
-    $response = $mpesa->B2C([
-        'amount' => 10,
-        'accountReference' => '12',
-        'callBackURL' => 'https://example.com/v1/payments/C2B/confirmation',
-        'queueTimeOutURL' => 'https://example.com/v1/payments/C2B/confirmation',
-        'resultURL' => 'https://example.com/v1/payments/C2B/confirmation',
-        'Remarks' => 'Test'
-    ]);
+    $mpesa = new Mpesa();
+    try {
 
+        $response = $mpesa->STKPush([
+            'amount' => 10,
+            'transactionDesc' => '',
+            'phoneNumber' => '',
+        ]);
+        
+        
+        // $mpesa->STKStatus([]);
 
-    // $mpesa->STKStatus([]);
+        // $mpesa->C2BRegister([]);
 
-    // $mpesa->C2BRegister([]);
-
-    // $mpesa->C2BSimulate([]);
+        // $mpesa->C2BSimulate([]);
 
 
 
-    // $mpesa->accountBalance([]);
+        // $mpesa->accountBalance([]);
 
-    // $mpesa->reversal([]);
+        // $mpesa->reversal([]);
 
-    // $mpesa->transactionStatus([]);
-}catch(\Exception $e){
-    $response = json_decode($e->getMessage());
-}
+        // $mpesa->transactionStatus([]);
 
-header('Content-Type: application/json');
-echo json_encode($response);
+    }catch(\Exception $e){
+        $response = json_decode($e->getMessage());
+    }
+
+    header('Content-Type: application/json');
+    echo json_encode($response);
+
 ```
 
 ## API's Supported
@@ -146,19 +144,21 @@ https://github.com/Kabangi/mpesa
 
 ## Motivators
 Sincere gratitudes goes to the following guys for their code contribution:-
-        {
-            "name": "SmoDav",
-            "email": "smodavprivate@gmail.com"
-        },
-        {
-            "name": "Kabangi",
-            "email": "kabangijulius@gmail.com"
-        }
+        
+1. SmoDav<smodavprivate@gmail.com>
+    
+2. Kabangijulius<kabangijulius@gmail.com>
+    
 ## Support
-Need support using this package:- 
-Email basilndoga @gmail.com or skype me at basilndonga
+
+Need support using this package:-
+
+Email basilndoga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
+
+If you wish to be added as a contributor to this project let me know.
 
 ## License
 
 The M-Pesa Package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
+Happy coding!!!!!!!

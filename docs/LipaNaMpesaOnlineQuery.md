@@ -1,16 +1,15 @@
-### Lipa na M-Pesa Online Query Request - Resource URL
+## Lipa na M-Pesa Online Query Request - Resource URL
 POST https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query
 
-### Lipa na M-Pesa Online Query Request - Request Parameters
+## Lipa na M-Pesa Online Query Request - Request Parameters
 
-### BusinessShortCode 	Business Short Code
-
-# Parameter 			Description
+### Parameter 			Description
+	BusinessShortCode 	Business Short Code
 	Password 			Password
 	Timestamp 			Timestamp
 	CheckoutRequestID 	Checkout RequestID
 
-##Sample PHP Query Request
+## Sample PHP Query Request
 ```
 	<?php
 
@@ -42,7 +41,7 @@ POST https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query
 	?>
 ```
 
-### Lipa na M-Pesa Online Query Request - Response Parameters
+## Lipa na M-Pesa Online Query Request - Response Parameters
 
 #Parameter 				Description
 	MerchantRequestID 	Merchant Request ID

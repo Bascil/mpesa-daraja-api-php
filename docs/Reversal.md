@@ -1,43 +1,44 @@
-### Reversal
+# Reversal
 Reverses a B2B, B2C or C2B M-Pesa transaction.
 
-### Reversal Resource URL
+## Reversal Resource URL
 POST https://sandbox.safaricom.co.ke/mpesa/reversal/v1/request
 
-### Reversal Request Parameters
+## Reversal Request Parameters
 
-	##Initiator 	
+###Initiator 	
 This is the credential/username used to authenticate the transaction request.
 
-	##SecurityCredential 	
+###SecurityCredential 	
 Base64 encoded string of the Security Credential, which is encrypted using M-Pesa public key and validates the transaction on M-Pesa Core system.
 
-	##CommandID 	
+###CommandID 	
 Unique command for each transaction type, possible values are: 
 TransactionReversal.
 
-	##PartyA 	
+###PartyA 	
 Organization/MSISDN sending the transaction.
 
-	##RecieverIdentifierType 	
+###RecieverIdentifierType 	
 Type of organization receiving the transaction.
 
-	##Remarks 	
+###Remarks 	
 Comments that are sent along with the transaction.
 
-	##QueueTimeOutURL 	
+###QueueTimeOutURL 	
 The path that stores information of time out transaction.
 
-	##ResultURL 	
+###ResultURL 	
 The path that stores information of transaction.
 
-	##TransactionID 	
+###TransactionID 	
 Organization Receiving the funds.
 
-	##Occasion 	
+###Occasion 	
 Optional.
 
-### Sample PHP Reversal Request
+
+## Sample PHP Reversal Request
 
 ```
 	<?php
@@ -78,7 +79,7 @@ Optional.
 	?>
 ```
 
-### Sample JSON Reversal Response
+## Sample JSON Reversal Response
 
 ```
 	{

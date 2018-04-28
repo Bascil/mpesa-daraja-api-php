@@ -17,15 +17,15 @@ try {
         'Remarks' => 'Test'
     ]);
 
-     /* 
-     $response = $mpesa->C2BSimulate([
-       'ShortCode'=> '600610',
-       'CommandID'=> 'CustomerPayBillOnline',
-       'Amount'=> 100,
-       'Msisdn'=> '254708374149',
-       'BillRefNumber'=> 'account'
+     
+    //   $response = $mpesa->C2BSimulate([
+    //    'ShortCode'=> '600610',
+    //    'CommandID'=> 'CustomerPayBillOnline',
+    //    'Amount'=> 100,
+    //    'Msisdn'=> '254708374149',
+    //    'BillRefNumber'=> 'account'
 
-    ]);*/
+    // ]);
 
     // $mpesa->STKStatus([]);
 

@@ -1,43 +1,43 @@
-### B2C API
+# B2C API
 This API enables Business to Customer (B2C) transactions between a company and customers who are the end-users of its products or services. Use of this API requires a valid and verified B2C M-Pesa Short code.
 
-### B2C Resource URL
+## B2C Resource URL
 POST https://sandbox.safaricom.co.ke/mpesa/b2c/v1/paymentrequest
 
 
-### B2C Query Parameters
+## B2C Query Parameters
 
-	###InitiatorName 	
+###InitiatorName 	
 This is the credential/username used to authenticate the transaction request.
 
-	##SecurityCredential 	
+###SecurityCredential 	
 Base64 encoded string of the Security Credential, which is encrypted using M-Pesa public key and validates the transaction on M-Pesa Core system.
 
-	##CommandID 	
+###CommandID 	
 Unique command for each transaction type e.g. SalaryPayment, BusinessPayment, PromotionPayment
 
-	##Amount 	
+###Amount 	
 The amount being transacted
 
-	##PartyA 	
+###PartyA 	
 Organization’s shortcode initiating the transaction.
 
-	##PartyB 	
+###PartyB 	
 Phone number receiving the transaction
 
-	##Remarks 	
+###Remarks 	
 Comments that are sent along with the transaction.
 
-	##QueueTimeOutURL 	
+###QueueTimeOutURL 	
 The timeout end-point that receives a timeout response.
 
-	##ResultURL 	
+###ResultURL 	
 The end-point that receives the response of the transaction
 
-	##Occasion 	
+###Occasion 	
 Optional
 
-###Sample PHP Request
+##Sample PHP Request
 ```
 	<?php
 	

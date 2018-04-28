@@ -1,6 +1,6 @@
 {
     "name": "bascil/mpesa-api-php",
-    "description": "Simple PHP M-Pesa API",
+    "description": "Simple PHP Implementation for M-Pesa API",
     "type": "library",
     "keywords": ["mpesa", "safaricom", "transactions", "api"],
     "license": "MIT",

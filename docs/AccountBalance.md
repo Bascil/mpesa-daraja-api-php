@@ -1,39 +1,39 @@
-## Account Balance API 
+# Account Balance API 
 Requests for the account balance of a shortcode
 
 ## Account Balance - Resource URL
 POST https://sandbox.safaricom.co.ke/mpesa/accountbalance/v1/query
 
-### Account Balance - Request Parameters
+## Account Balance - Request Parameters
 
-	##Initiator
+###Initiator
 This is the credential/username used to authenticate the transaction request.
 
-	##SecurityCredential 	
+###SecurityCredential 	
 Base64 encoded string of the Security Credential, which is encrypted using M-Pesa public key and validates the transaction on M-Pesa Core system.
 
-	##CommandID 	
+###CommandID 	
 A unique command passed to the M-Pesa system.
 
-	##PartyB 	
+###PartyB 	
 The shortcode of the organisation receiving the transaction.
 
-	##ReceiverIdentifierType 	
+###ReceiverIdentifierType 	
 Type of the organisation receiving the transaction.
 
-	##Remarks 	
+###Remarks 	
 Comments that are sent along with the transaction.
 
-	##QueueTimeOutURL 	
+###QueueTimeOutURL 	
 The timeout end-point that receives a timeout message.
 
-	##ResultURL 	
+###ResultURL 	
 The end-point that receives a successful transaction.
 
-	##AccountType 	
+###AccountType 	
 Organisation receiving the funds.
 
-### Sample PHP Account Balance Request
+## Sample PHP Account Balance Request
 
 ```
 	<?php
@@ -71,7 +71,7 @@ Organisation receiving the funds.
 	?>
 
 ```
-### Sample Account Balance Response
+## Sample Account Balance Response
 
 ```
 	{
