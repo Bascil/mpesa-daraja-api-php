@@ -153,7 +153,7 @@ Sincere gratitudes goes to the following guys for their code contribution:-
 
 Need support using this package:-
 
-Email basilndoga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
+Email basilndonga@gmail.com or skype me at basilndonga. Feel free to call me on my cellphone number +254 728 986 084
 
 If you wish to be added as a contributor to this project let me know.
 
