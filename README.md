@@ -4,8 +4,6 @@ This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API.
 
 ## Installation
 
-This project supports both composer dependency management tool and can also be used without composer
-
 * Run the following command to clone this repo
 
 ```
