@@ -1,4 +1,4 @@
-# Simple PHP Implementation for M-Pesa API
+# PHP Implementation for M-Pesa Daraja API
 
 This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API.  
 
