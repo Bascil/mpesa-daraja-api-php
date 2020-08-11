@@ -1,6 +1,6 @@
 # PHP Implementation for M-Pesa Daraja API
 
-This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API.  
+This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API. The official Daraja API documentation is available on https://developer.safaricom.co.ke/docs.  
 
 ## Installation
 
