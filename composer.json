@@ -1,0 +1,12 @@
+{
+    "name": "bascil/mpesa-daraja-api-php",
+    "description": "PHP Implementation for M-Pesa Daraja API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basil Ndonga",
+            "email": "basilndonga@gmail.com"
+        }
+    ],
+    "require": {}
+}
