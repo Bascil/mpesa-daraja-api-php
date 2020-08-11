@@ -7,7 +7,7 @@ This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API.
 * Run the following command to clone this repo
 
 ```
-git clone https://github.com/Bascil/mpesa-api-php.git
+git clone https://github.com/Bascil/mpesa-daraja-api-php.git
 
 ```
 OR
