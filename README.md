@@ -1,19 +1,23 @@
 # PHP Implementation for M-Pesa Daraja API
 
-This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API. The official Daraja API documentation is available on https://developer.safaricom.co.ke/docs.  
+This is a PHP package for the Safaricom's M-Pesa REST API dubbed DARAJA API. The official Daraja API documentation is available on https://developer.safaricom.co.ke/docs.
 
 ## Installation
 
-* Run the following command to clone this repo
+- Run the following command to clone this repo
 
 ```
 git clone https://github.com/Bascil/mpesa-daraja-api-php.git
 
 ```
+
 OR
 
-* Download the source code as zipped 
+- Download the source code as zipped
 
+## Linux Hosting
+
+If you need VPS or dedicated hosting, please visit this link [Server Host](https://serverhost53.com)
 
 ## Support
 
@@ -32,4 +36,3 @@ If you wish to engage me as a developer for your project, feel free to contact m
 This USSD Package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 Happy coding!!!!!!!
-
